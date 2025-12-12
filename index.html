@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>💰 Expense Tracker</h2>
+
+    <div class="input-box">
+        <input type="text" id="title" placeholder="Expense title (Pizza, Taxi, etc)">
+        <input type="number" id="amount" placeholder="Amount">
+
+        <select id="category">
+            <option value="self">Self</option>
+            <option value="other">Other</option>
+        </select>
+
+        <input type="text" id="person" placeholder="Who do you owe? (optional)">
+        <button onclick="addExpense()">Add</button>
+    </div>
+
+    <h3>Self Expenses</h3>
+    <ul id="selfList"></ul>
+
+    <h3>Other Expenses</h3>
+    <ul id="list"></ul>
+
+    <div class="total">
+        Total Spending Today: ₹<span id="totalAmount">0</span>
+    </div>
+
+    <h3>Reminder</h3>
+    <p id="reminderText">No pending dues 🎉</p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
