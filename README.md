@@ -1,6 +1,5 @@
 # Expense_tracker
 💸 Expense Tracker
-📌 Project Overview
 
 The Expense & Reminder Tracker is an intermediate-level web application designed to help users track daily expenses, calculate totals, and manage money reminders such as whom they owe money to or who owes them. The application focuses on solving a real-world problem of poor expense management and forgotten repayments.
 This project is suitable for college mini-projects, portfolio showcasing, and learning full-stack web development fundamentals.
@@ -40,6 +39,6 @@ Responsive layout
 Clean color palette and typography
 
 Tech Stack
-HTML
-CSS
-JavaScript 
+1)HTML
+2)CSS
+3)JavaScript 
